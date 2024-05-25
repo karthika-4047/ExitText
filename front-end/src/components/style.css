@@ -1,0 +1,46 @@
+.main {
+    height: 100vh;
+    background-image: url('../images/img1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.main-content button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.main-content button:hover {
+    background-color: #0056b3;
+}
